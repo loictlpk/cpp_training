@@ -3,6 +3,9 @@
 int sum(int a, int b){
     return a + b;
 }
+int sum(int a, int b, int c){
+    return a + b + c;
+}
 
 int main()
 {
@@ -28,6 +31,7 @@ int main()
     }while(i<=1);
     
     std::cout << sum(2, 3) << std::endl;
-
+    std::cout << sum(2, 3, 5) << std::endl; 
+    
     return 0;
 }
