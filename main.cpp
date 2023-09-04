@@ -6,7 +6,7 @@ int main()
     int i{0};
     std::string msg{};
 
-    while(i < 2){
+    do{
 
         if(!security){
             security = true ;  
@@ -21,7 +21,7 @@ int main()
                  
         std::cout << msg << std::endl;
         
-    }
+    }while(i<=1);
    
     return 0;
 }
