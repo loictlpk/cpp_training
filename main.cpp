@@ -2,8 +2,8 @@
 
 int main()
 {
-    bool security{true};
     int i{0};
+    bool security{true};
     std::string msg{};
 
     do{
