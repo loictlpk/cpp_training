@@ -1,4 +1,5 @@
 #include <iostream>
+#include "test.hpp"
 
 int sum(int a, int b){
     std::cout << a + b << std::endl;
@@ -14,6 +15,8 @@ int main()
     int i{0}, nba{}, nbb{}, nbc{};
     bool security{true};
     std::string msg{};
+
+    std::cout << LETTER << std::endl;
 
     do{
 
