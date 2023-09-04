@@ -1,10 +1,12 @@
 #include <iostream>
 
 int sum(int a, int b){
-    return a + b;
+    std::cout << a + b << std::endl;
+    return 0;
 }
 int sum(int a, int b, int c){
-    return a + b + c;
+    std::cout << a + b + c << std::endl;
+    return 0;
 }
 
 int main()
@@ -30,8 +32,8 @@ int main()
         
     }while(i<=1);
     
-    std::cout << sum(2, 3) << std::endl;
-    std::cout << sum(2, 3, 5) << std::endl; 
-    
+    sum(2, 3);
+    sum(2, 3, 5);
+
     return 0;
 }
