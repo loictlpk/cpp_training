@@ -11,7 +11,7 @@ int sum(int a, int b, int c){
 
 int main()
 {
-    int i{0};
+    int i{0}, nba{}, nbb{}, nbc{};
     bool security{true};
     std::string msg{};
 
@@ -32,8 +32,17 @@ int main()
         
     }while(i<=1);
     
-    sum(2, 3);
-    sum(2, 3, 5);
+    std::cout << "Type number a: " ; 
+    std::cin >> nba ; 
+    std::cout << "Type number b: " ; 
+    std::cin >> nbb ;
+    std::cout << "" << std::endl;
+
+    std::cout << "result : " << sum(nba, nbb) << std::endl;
+        
+    std::cout << "Type number c: " ; 
+    std::cin >> nbc ;
+    std::cout << "result : " << sum(nba, nbb, nbc) << std::endl;
 
     return 0;
 }
