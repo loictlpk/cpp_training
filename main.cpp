@@ -18,8 +18,7 @@ int main()
            msg = "GO";   
            ++test ;
         }
-               
-        
+                 
         std::cout << msg << std::endl;
         
     }
