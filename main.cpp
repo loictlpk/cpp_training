@@ -3,20 +3,20 @@
 int main()
 {
     bool security{true};
-    int test{0};
+    int i{0};
     std::string msg{};
 
-    while(test < 2){
+    while(i < 2){
 
         if(!security){
             security = true ;  
             msg = "BACK" ;
-            ++test ;                      
+            ++i ;                      
         }
         else if(security){
            security = false ; 
            msg = "GO";   
-           ++test ;
+           ++i ;
         }
                  
         std::cout << msg << std::endl;
