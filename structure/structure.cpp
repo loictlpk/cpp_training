@@ -35,13 +35,15 @@ int changeValue(int a, int b){
 int changeValue(int a, int b, int c){
     pt.loic = a;
     pt.eric = b;
-    pt.hasan = c;
+    pt.hasan = c; 
     return 0;
 };
 
 int main(){
     display();
     changeValue(1, 4, 6);
+    display();
+    changeValue();
     display();
     return 0;
 }
